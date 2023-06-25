@@ -2,54 +2,135 @@ import 'package:second_app_quiz_app/models/quiz_question.dart';
 
 const questions = [
   QuizQuestion(
-    'What are the main building blocks of Flutter UIs?',
+    'Which champion does not have a resource bar?',
     [
-      'Widgets',
-      'Components',
-      'Blocks',
-      'Functions',
+      'Garen',
+      'Yasuo',
+      'Darius',
+      'Katarina',
     ],
   ),
-  QuizQuestion('How are Flutter UIs built?', [
-    'By combining widgets in code',
-    'By combining widgets in a visual editor',
-    'By defining widgets in config files',
-    'By using XCode for iOS and Android Studio for Android',
+  QuizQuestion('Which item provides the highest attack damage bonus?', [
+    'Infinity Edge',
+    'The Bloodthirster',
+    'Essence Reaver',
+    'Ravenous Hydra',
   ]),
   QuizQuestion(
-    'What\'s the purpose of a StatefulWidget?',
+    'Which of the following champions has the ability to revive themselves upon death?',
     [
-      'Update UI as data changes',
-      'Update data as UI changes',
-      'Ignore data changes',
-      'Render UI that does not depend on data',
+      'Anivia',
+      'Yorick',
+      'Karthus',
+      'Sion',
     ],
   ),
   QuizQuestion(
-    'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
+    'Which jungle camp grants the highest experience points when killed?',
     [
-      'StatelessWidget',
-      'StatefulWidget',
-      'Both are equally good',
-      'None of the above',
+      'Blue Sentinel (Blue Buff)',
+      'Red Brambleback (Red Buff)',
+      'Rift Scuttler',
+      'Gromp',
     ],
   ),
   QuizQuestion(
-    'What happens if you change data in a StatelessWidget?',
+    'Which summoner spell provides a brief period of invulnerability?',
     [
-      'The UI is not updated',
-      'The UI is updated',
-      'The closest StatefulWidget is updated',
-      'Any nested StatefulWidgets are updated',
+      'Barrier',
+      'Ignite',
+      'Heal',
+      'Cleanse',
     ],
   ),
   QuizQuestion(
-    'How should you update data inside of StatefulWidgets?',
+    'Which champion has an ultimate ability that resets upon scoring a takedown?',
     [
-      'By calling setState()',
-      'By calling updateData()',
-      'By calling updateUI()',
-      'By calling updateState()',
+      'Katarina',
+      'Fizz',
+      'Akali',
+      'Ekko',
+    ],
+  ),
+  QuizQuestion(
+    'Which champion has the ability to globally reveal enemy champions on the map for a short duration?',
+    [
+      'Twisted Fate',
+      'Ashe',
+      'Jinx',
+      'Ezreal',
+    ],
+  ),
+  QuizQuestion(
+    'Which dragon grants bonus true damage to epic monsters and turrets?',
+    [
+      'Mountain Dragon',
+      'Infernal Dragon',
+      'Ocean Dragon',
+      'Cloud Dragon',
+    ],
+  ),
+  QuizQuestion(
+    'Which champion possesses the ability to revive all dead allied champions upon casting their ultimate?',
+    [
+      'Zilean',
+      'Soraka',
+      'Yuumi',
+      'Kayle',
     ],
   ),
 ];
+
+// const questions = [
+//   QuizQuestion(
+//     'What are the main building blocks of Flutter UIs?',
+//     [
+//       'Widgets',
+//       'Components',
+//       'Blocks',
+//       'Functions',
+//     ],
+//   ),
+//   QuizQuestion('How are Flutter UIs built?', [
+//     'By combining widgets in code',
+//     'By combining widgets in a visual editor',
+//     'By defining widgets in config files',
+//     'By using XCode for iOS and Android Studio for Android',
+//   ]),
+//   QuizQuestion(
+//     'What\'s the purpose of a StatefulWidget?',
+//     [
+//       'Update UI as data changes',
+//       'Update data as UI changes',
+//       'Ignore data changes',
+//       'Render UI that does not depend on data',
+//     ],
+//   ),
+//   QuizQuestion(
+//     'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
+//     [
+//       'StatelessWidget',
+//       'StatefulWidget',
+//       'Both are equally good',
+//       'None of the above',
+//     ],
+//   ),
+//   QuizQuestion(
+//     'What happens if you change data in a StatelessWidget?',
+//     [
+//       'The UI is not updated',
+//       'The UI is updated',
+//       'The closest StatefulWidget is updated',
+//       'Any nested StatefulWidgets are updated',
+//     ],
+//   ),
+//   QuizQuestion(
+//     'How should you update data inside of StatefulWidgets?',
+//     [
+//       'By calling setState()',
+//       'By calling updateData()',
+//       'By calling updateUI()',
+//       'By calling updateState()',
+//     ],
+//   ),
+// ];

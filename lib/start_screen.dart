@@ -12,16 +12,26 @@ class StartScreen extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Image.asset(
-            'assets/images/quiz-logo.png',
-            width: 300,
-            color: const Color.fromARGB(160, 255, 255, 255),
+          Container(
+            width: 200,
+            height: 200,
+            decoration: BoxDecoration(
+              border: Border.all(
+                color: const Color.fromARGB(61, 0, 0, 0),
+                width: 5,
+              ),
+            ),
+            child: Image.asset(
+              'assets/images/teemo.png',
+
+              // color: const Color.fromARGB(176, 255, 255, 255),
+            ),
           ),
           const SizedBox(
-            height: 60,
+            height: 30,
           ),
           Text(
-            'Learn Flutter the fun way!',
+            'Leauge of Legends Quiz!',
             style: GoogleFonts.montserrat(
               color: Colors.white,
               fontSize: 25,
