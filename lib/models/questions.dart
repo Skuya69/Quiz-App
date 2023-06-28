@@ -2,84 +2,94 @@ import 'package:second_app_quiz_app/models/quiz_question.dart';
 
 const questions = [
   QuizQuestion(
-    'Which champion does not have a resource bar?',
+    'Jakie jest największe drzewo na świecie?',
     [
-      'Garen',
-      'Yasuo',
-      'Darius',
-      'Katarina',
+      'Sekwoja olbrzymia',
+      'Dąb korkowy',
+      'Sosna wejmutka',
+      'Modrzew',
     ],
   ),
-  QuizQuestion('Which item provides the highest attack damage bonus?', [
-    'Infinity Edge',
-    'The Bloodthirster',
-    'Essence Reaver',
-    'Ravenous Hydra',
+  QuizQuestion('Które drzewo ma charakterystyczne białe kora?', [
+    'Brzoza',
+    'Dąb',
+    'Jodła',
+    'Sosna',
   ]),
   QuizQuestion(
-    'Which of the following champions has the ability to revive themselves upon death?',
+    'Które drzewo jest symbolem Kanady?',
     [
-      'Anivia',
-      'Yorick',
-      'Karthus',
-      'Sion',
+      'Klon',
+      'Sosna',
+      'Topola',
+      'Buk',
     ],
   ),
   QuizQuestion(
-    'Which jungle camp grants the highest experience points when killed?',
+    'Które drzewo ma największe nasiona?',
     [
-      'Blue Sentinel (Blue Buff)',
-      'Red Brambleback (Red Buff)',
-      'Rift Scuttler',
-      'Gromp',
+      'Orzech włoski',
+      'Wiąz',
+      'Klon',
+      'Dąb',
     ],
   ),
   QuizQuestion(
-    'Which summoner spell provides a brief period of invulnerability?',
+    'Które drzewo jest najszybciej rosnącym drzewem na świecie?',
     [
-      'Barrier',
-      'Ignite',
-      'Heal',
-      'Cleanse',
+      'Wierzba',
+      'Sosna',
+      'Dąb',
+      'Sekwoja',
     ],
   ),
   QuizQuestion(
-    'Which champion has an ultimate ability that resets upon scoring a takedown?',
+    'Które drzewo jest uznawane za święte w japońskiej kulturze?',
     [
-      'Katarina',
-      'Fizz',
-      'Akali',
-      'Ekko',
+      'Wiśnia',
+      'Klon',
+      'Cis',
+      'Bambus',
     ],
   ),
   QuizQuestion(
-    'Which champion has the ability to globally reveal enemy champions on the map for a short duration?',
+    'Które drzewo jest stosowane do produkcji papieru?',
     [
-      'Twisted Fate',
-      'Ashe',
-      'Jinx',
-      'Ezreal',
+      'Eukaliptus',
+      'Cis',
+      'Buk',
+      'Dąb',
     ],
   ),
   QuizQuestion(
-    'Which dragon grants bonus true damage to epic monsters and turrets?',
+    'Które drzewo ma największą liczbę gatunków na świecie?',
     [
-      'Mountain Dragon',
-      'Infernal Dragon',
-      'Ocean Dragon',
-      'Cloud Dragon',
+      'Palmowiec',
+      'Buk',
+      'Sosna',
+      'Jabłoń',
     ],
   ),
   QuizQuestion(
-    'Which champion possesses the ability to revive all dead allied champions upon casting their ultimate?',
+    'Które drzewo ma najgłębsze korzenie?',
     [
-      'Zilean',
-      'Soraka',
-      'Yuumi',
-      'Kayle',
+      'Dąb',
+      'Fikus benjamina',
+      'Sosna',
+      'Topola',
+    ],
+  ),
+  QuizQuestion(
+    'Które drzewo jest najsłynniejsze ze względu na swoje czerwone liście jesienią?',
+    [
+      'Klon',
+      'Jodła',
+      'Modrzew',
+      'Kasztanowiec',
     ],
   ),
 ];
+
 
 // const questions = [
 //   QuizQuestion(

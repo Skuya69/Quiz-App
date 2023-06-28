@@ -47,7 +47,7 @@ class ResultsScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'You answered $numCorrectQuestions out of $numTotalQuestions questions correctly!',
+              'Odpowiedziałaś na $numCorrectQuestions z $numTotalQuestions pytań poprawnie!',
               style: GoogleFonts.montserrat(
                 color: const Color.fromARGB(232, 230, 200, 253),
                 fontSize: 20,
@@ -73,7 +73,7 @@ class ResultsScreen extends StatelessWidget {
                 ),
               ),
               icon: const Icon(Icons.refresh_outlined),
-              label: const Text('Restart Quiz!'),
+              label: const Text('Spróbuj ponownie!'),
             ),
           ],
         ),

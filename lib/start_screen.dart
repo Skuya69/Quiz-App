@@ -12,17 +12,10 @@ class StartScreen extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Container(
-            width: 200,
-            height: 200,
-            decoration: BoxDecoration(
-              border: Border.all(
-                color: const Color.fromARGB(61, 0, 0, 0),
-                width: 5,
-              ),
-            ),
+          SizedBox(
+            width: 400,
             child: Image.asset(
-              'assets/images/teemo.png',
+              'assets/images/tree.png',
 
               // color: const Color.fromARGB(176, 255, 255, 255),
             ),
@@ -31,7 +24,7 @@ class StartScreen extends StatelessWidget {
             height: 30,
           ),
           Text(
-            'Leauge of Legends Quiz!',
+            'Wielki Quiz o Drzewach!',
             style: GoogleFonts.montserrat(
               color: Colors.white,
               fontSize: 25,
@@ -58,7 +51,7 @@ class StartScreen extends StatelessWidget {
               Icons.arrow_circle_right_outlined,
               size: 23,
             ),
-            label: const Text('Start Quiz'),
+            label: const Text('Rozpocznij Quiz'),
           ),
         ],
       ),
